@@ -6,14 +6,14 @@ const CultureSection = () => {
     {
       icon: <Target className="h-10 w-10" />,
       title: "Extreme Ownership",
-      description: "Every team member takes full responsibility for outcomes, driving accountability and excellence in every decision.",
+      description: "We take full responsibility for our actions and outcomes—no excuses. Every team member is empowered to lead, solve problems, and deliver results.",
       principle: "Own the mission, own the results"
     },
     {
       icon: <MessageCircle className="h-10 w-10" />,
       title: "Crucial Conversations",
-      description: "We foster honest, direct communication that addresses the hard truths and drives breakthrough solutions.",
-      principle: "Truth over comfort, progress over politics"
+      description: "We prioritize clear, direct dialogue, even when it’s uncomfortable. Tough conversations lead to better decisions, stronger teams, and real progress.",
+      principle: "Clarity over comfort. Growth over ego."
     },
     {
       icon: <Star className="h-10 w-10" />,
@@ -22,10 +22,22 @@ const CultureSection = () => {
       principle: "Connect with purpose, communicate with impact"
     },
     {
+      icon: <Activity className="h-10 w-10" />,
+      title: "Bias for Action",
+      description: "We’d rather build, test, and iterate than wait for perfect. Speed creates momentum, and clarity",
+      principle: "Fail fast. Learn faster"
+    },
+    {
       icon: <Users className="h-10 w-10" />,
-      title: "Employee Ownership",
-      description: "Every team member has equity in our success, aligning individual growth with company mission.",
-      principle: "Your success is our success"
+      title: "Operate at the Edge",
+      description: "We work at the edge, of technology, of our comfort zone, and of what’s been done before. That’s where breakthroughs happen",
+      principle: "Build where others hesitate"
+    },
+    {
+      icon: <Wrench className="h-10 w-10" />,
+      title: "No Job Too Small",
+      description: "Titles don’t matter, no task is beneath us if it moves the work forward. We jump in, fix things, and keep moving.",
+      principle: "Step in. Step up."
     }
   ];
 
@@ -43,10 +55,10 @@ const CultureSection = () => {
           <div className="bg-energy-green/20 border border-energy-green/40 rounded-xl p-6 max-w-4xl mx-auto">
             <p className="font-montserrat font-semibold text-energy-green text-lg">
               "A company is only as strong as its people, and people perform best when they 
-              understand the why behind every decision."
+              understand the why behind the decision."
             </p>
             <p className="font-open-sans text-gray-300 text-sm mt-2">
-              — Leadership Philosophy
+              — Kris Canete
             </p>
           </div>
         </div>
