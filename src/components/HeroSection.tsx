@@ -15,12 +15,12 @@ const HeroSection = () => {
         </div>
       </div>
       
-      {/* American flag subtle accent */}
+      <!--{/* American flag subtle accent */}
       <div className="absolute top-10 right-10 w-16 h-10 opacity-20">
         <div className="w-full h-full bg-gradient-to-r from-patriot-red via-industrial-white to-steel-blue rounded"></div>
       </div>
 
-      <div className="relative z-10 text-center px-6 max-w-6xl mx-auto">
+      <div className="relative z-10 text-center px-6 max-w-6xl mx-auto"> -->
         {/* Logo */}
         <div className="mb-8 flex justify-center items-center">
           <div className="bg-energy-green p-4 rounded-full shadow-2xl">
